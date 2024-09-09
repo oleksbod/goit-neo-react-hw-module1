@@ -1,0 +1,29 @@
+.container {
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 112px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.statusRed {
+  color: red;
+}
+
+.statusGreen {
+  color: green;
+}
